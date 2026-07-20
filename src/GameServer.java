@@ -63,7 +63,10 @@ public class GameServer {
                     handleClientMessage(message); // Handle the received message
                 }
             } catch (IOException e) {
-                e.printStackTrace(); // Handle any errors that occur
+                // A client closing its window resets the connection; that is a
+                // normal disconnect, not an error, so just note it cleanly.
+                System.out.println("Client disconnected"
+                        + (username != null ? ": " + username : ""));
             } finally {
                 disconnect(); // Clean up when the client disconnects
             }
