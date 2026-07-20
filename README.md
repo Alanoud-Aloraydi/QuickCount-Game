@@ -5,6 +5,7 @@ Players connect to a shared server, get matched into a game room, and race to so
 number puzzles across three levels. The first player to finish each level earns points,
 and live scores are broadcast to everyone in the room.
 
+> **University:** King Saud University — Information Technology
 > **Course:** Computer Networks (socket programming project)
 
 ## How it works
@@ -56,5 +57,6 @@ src/
 ```
 
 ## Notes
-This project was built for a university Computer Networks course to demonstrate TCP
-socket communication, multi-threading, and a client–server architecture.
+This project was built for the Computer Networks course in the Information Technology
+program at King Saud University, to demonstrate TCP socket communication,
+multi-threading, and a client–server architecture.
