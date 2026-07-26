@@ -6,7 +6,7 @@ number puzzles across three levels. The first player to finish each level earns 
 and live scores are broadcast to everyone in the room.
 
 > **University:** King Saud University — Information Technology
-> **Course:** Computer Networks (socket programming project)
+> **Course:** IT328 — Principles of Computer Networks (socket programming project)
 
 ## How it works
 - **`GameServer`** — a multi-threaded TCP server (port `9090`). It tracks connected
